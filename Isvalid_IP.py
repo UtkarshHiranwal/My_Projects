@@ -24,5 +24,6 @@ def isValid(s):
         return 0
     else:
         return 1
-
-print(isValid("127.200.122"))
+if __name__=="__main__":
+    s=input("Enter Your IP - ")
+    print(isValid(s))
