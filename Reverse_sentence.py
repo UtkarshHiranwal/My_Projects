@@ -14,5 +14,6 @@ def rev(s):
     for i in a:
         d=d+i
     return d
-
-print(rev("i.am.in.rev"))
+if __name__=="__main__":
+    s=input("Enter Your Sentence - ")
+    print(rev(s))
