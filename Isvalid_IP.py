@@ -1,5 +1,4 @@
 def isValid(s):
-    #code here
     a=s.split(".")
     m=0
     n=s.count(".")
