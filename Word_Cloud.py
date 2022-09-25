@@ -16,13 +16,7 @@
 # In[7]:
 
 
-# Here are all the installs and imports you will need for your word cloud script and uploader widget
-
-get_ipython().system('pip install wordcloud')
-get_ipython().system('pip install fileupload')
-get_ipython().system('pip install ipywidgets')
-get_ipython().system('jupyter nbextension install --py --user fileupload')
-get_ipython().system('jupyter nbextension enable --py fileupload')
+# Here are all the installs and imports you will need for your word cloud script and ).system('pip install ipywidgets')
 
 import wordcloud
 import numpy as np
