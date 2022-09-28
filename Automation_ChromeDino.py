@@ -29,14 +29,7 @@ if __name__=="__main__":
         image=ImageGrab.grab().convert('L')
         data=image.load()
         iscol(data)
-    #     for i in range(190,230):
-    #         for j in range (420,490):
-    #             data[i,j]=0
-    #     for i in range(170,230):
-    #         for j in range (300,380):
-    #             data[i,j]=170
-    #     break
-    # image.show()
+
 
 
 
