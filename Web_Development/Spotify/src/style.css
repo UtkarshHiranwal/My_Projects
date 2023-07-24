@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+#main{
+    display: flex;
+}
+
+.home{
+    margin-top: 8px; 
+    margin-left: 6px;
+    width: 23vw;
+    height: 14vh;
+    background-color: #121212;
+    color:grey;
+    /* gap: 90px; */
+    /* padding: 40px; */
+    border-radius: 7px;
+    /* display: flex; */
+    /* gap: 70px; */
+    padding: 8px 35px;
+}
+.ins{
+    /* font-family: 'Open Sans', sans-serif; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 30px; */
+    /* color: white; */
+    font-size: medium;
+    font-weight: bold;
+    /* border: 2px red solid; */
+    /* height: 50px; */
+    /* width: 200px; */
+    /* margin: 5\px; */
+    margin-top: 20px;
+    
+}
+.ins:hover{
+    /* font-weight: bolder; */
+    color: white;
+    
+}
+.cis{
+    /* margin-top: 13px; */
+    margin-left: 10px;
+    /* width: 00px; */
+    /* margin: 10px; */
+    /* padding: 7px; */
+}
+#ic1{
+    background-image: url(assets/home.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ic2{
+    background-image: url(assets/search.png);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lib{
+    margin-top: 8px; 
+    margin-left: 6px;
+    width: 23vw;
+    height: 619px;
+    background-color: #121212;
+    color: white;
+    /* gap: 90px; */
+    /* padding: 40px; */
+    border-radius: 7px;
+    position: absolute;
+}
+.left{
+    display: flex;
+    margin-top: 10px;
+    margin-left:20px ;
+    color: grey;
+    height: 50px;
+    width: 170px;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    align-items: center;
+}
+#ic3{
+    height: 30px;
+    width: 30px;
+    /* margin: 7px; */
+    background-image: url(assets/lib.png) ;
+    /* border-radius: 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.left p{
+    margin-left: 10px ;
+}
+#ic4{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    /* border: 2px solid red; */
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(assets/plusspo.png);
+    border-radius: 50%;
+}
+#ic4:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.cp{
+    background-color: rgb(44, 43, 43);
+    margin: 30px 7px;
+    border-radius: 6px;
+    height: 150px;
+    padding: 10px;
+}
+.grp{
+    /* border: 2px red solid; */
+    margin: 30px 7px;
+    border-radius: 6px;
+    height: 190px;
+    overflow: scroll;
+}
+.cp :first-child{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cp div:nth-of-type(2){
+    font-size: 11px;
+    margin-left: 10px;
+    /* font-weight: ; */
+}
+.cp :last-child{
+    margin: 20px 10px;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+}
+.foot{
+    display: flex;
+    padding: 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.foot a{
+    font-size: smaller;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+#lang{
+    margin-left: 20px;
+    border: 1px rgb(130, 122, 122) solid;
+    background-color: rgb(29, 26, 26);
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    padding-right: 4px;
+
+}
+#lang:hover{
+    scale: 1.1;
+    border: 1px solid white;
+}
+.song{
+    margin-top: 8px; 
+    margin-left: 6px;
+    width: 80.7vw;
+    height: 724px;
+    background-color: #121212;
+    color: white;
+    /* gap: 90px; */
+    /* padding: 40px; */
+    border-radius: 7px;
+    overflow: scroll;
+}
+#bnr{
+    color: white;
+    padding: 12px;
+    /* z-index: 2; */
+    margin-left: 6px;
+    width: 99.2vw;
+    height: 71px;
+    position: absolute;
+    top: 738px;
+    /* left: -100; */
+    /* border: 2px solid red; */
+    background-image: linear-gradient(to right,rgb(175, 56, 121), rgb(69, 130, 244) );
+}
+#bnr div{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Trispace', sans-serif;
+font-weight: bolder;
+font-size: 12px;
+margin-bottom: 7px;
+}
+#bnr p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+#bnr button{
+    border: none;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    /* width: 0px; */
+    right: 25px;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    top: 8px;
+    font-weight: bolder;
+    background-color: white;
+    cursor: pointer;
+}
+#bnr button:hover{
+    scale: 1.07;
+    background-color: rgb(225, 225, 225);
+}
+
+
+#hder{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #0f0e0ee1;
+    width: 76.3vw;
+    height: 8vh;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    /* position: relative; */
+    z-index: 2;
+
+}
+.navbut{
+    margin: 5px;
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+#hder :first-child{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+#li{
+    margin-top: 7px;
+    margin-right: 20px;
+}
+#logbut{
+
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+#hder div a{
+    text-decoration: none;
+    color: grey;
+    margin: 15px;
+}
+.scont{
+    background-image: linear-gradient(to top,#121212,#403d3d);
+    height: 500px;
+    margin-top: 70px;
+}
+.hd{
+    margin-left: 25px;
+    /* border: 2px red solid; */
+
+}
+.hd:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cat{
+    display: flex;
+    margin-left: 27px;
+}
+.card{
+    margin: 30px 15px;
+    width: 180px;
+    height: 266px;
+    /* border: 2px red solid; */
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 13px;
+    position: relative;
+
+}
+.card:hover{
+    background-color: #353434;
+    transform: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.cardpic{
+    background-image: url(assets/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    /* margin: 7px; */
+    /* margin-top: 13px; */
+    border-radius: 10px;
+    
+}
+.playbut{
+    background-image: url(assets/playbut.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 115px;
+    display: none;
+}
+.card:hover .playbut{
+    display: block;
+    top: 100px;
+    /* transform: all; */
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.cardcont{
+    /* margin: 13px; */
+    margin-top: 13px;
+    line-height: 22px;
+}
+.p{
+    margin-top: 5px;
+    font-size: smaller;
+    /* gap: 10px; */
+    color: grey;
+}
+.end{
+    margin: 30px;
+    display: flex;
+    gap: 90px;
+    /* text-decoration: none; */
+}
+.end div ul li{ 
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+    /* text-emphasis: none; */
+    /* font-display: none; */
+    
+}
+.end div ul{
+list-style: none;
+}
+.end div ul li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+hr{
+    /* font-size: 10px; */
+    width: 70vw;
+    margin-left: 45px;
+}
+footer{
+    height: 150px;
+    padding: 50px 40px;
+    color: grey;
+    font-size: small;
+}
