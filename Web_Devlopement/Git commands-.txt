@@ -1,0 +1,12 @@
+Git commands:-
+
+git init - (git initialization)
+
+git status - (check status )
+
+git add _file_name_- (add tracking to the local files) - for single file and git add . - every thing added to track
+
+git commit -m "messege required" (to save changes)
+
+git remote add origin 'repo link'
+ 
